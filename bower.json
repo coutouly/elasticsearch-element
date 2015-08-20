@@ -24,9 +24,10 @@
   "homepage": "https://github.com/coutouly/elasticsearch-component",
   "ignore": [],
   "dependencies": {
-    "elasticsearch": "elastic/bower-elasticsearch-js#~6.1.0",
+    
     "promise-polyfill": "polymerlabs/promise-polyfill#^1.0.0",
-    "polymer": "Polymer/polymer#^1.0.0"
+    "polymer": "Polymer/polymer#^1.0.0",
+    "elasticsearch": "elastic/bower-elasticsearch-js#~6.1.0"
   },
   "devDependencies": {
     "web-component-tester": "*",
