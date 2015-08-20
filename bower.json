@@ -1,7 +1,7 @@
 {
   "name": "elasticsearch-component",
   "version": "0.0.1",
-  "description": "Makes it easy to make ajax calls and parse the response",
+  "description": "polymer composant for elasticsearch",
   "private": false,
   "authors": [
     "Lucile Coutouly @ Paris Observatory"
