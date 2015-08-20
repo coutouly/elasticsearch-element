@@ -1,0 +1,35 @@
+{
+  "name": "elasticsearch-component",
+  "version": "0.0.1",
+  "description": "Makes it easy to make ajax calls and parse the response",
+  "private": false,
+  "authors": [
+    "Lucile Coutouly @ Paris Observatory"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "elasticsearch"
+  ],
+  "main": [
+    "elasticsearch-import.html"
+    "elasticsearch-component.html",
+    "elasticsearch-request.html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coutouly/elasticsearch-component.git"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/coutouly/elasticsearch-component",
+  "ignore": [],
+  "dependencies": {
+    "elasticsearch": "elastic/bower-elasticsearch-js#~6.1.0",
+    "promise-polyfill": "polymerlabs/promise-polyfill#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
